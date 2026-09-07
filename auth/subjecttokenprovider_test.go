@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openai/openai-go/v3/auth"
+	"github.com/mackross/openai-go/v3/auth"
 )
 
 func TestK8sProviderFileReading(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"net/url"
 	"slices"
 
-	"github.com/openai/openai-go/v3/internal/apiquery"
-	"github.com/openai/openai-go/v3/internal/requestconfig"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/packages/pagination"
-	"github.com/openai/openai-go/v3/packages/param"
+	"github.com/mackross/openai-go/v3/internal/apiquery"
+	"github.com/mackross/openai-go/v3/internal/requestconfig"
+	"github.com/mackross/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3/packages/pagination"
+	"github.com/mackross/openai-go/v3/packages/param"
 )
 
 // Given a list of messages comprising a conversation, the model will return a

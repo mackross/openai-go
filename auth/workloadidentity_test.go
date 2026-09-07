@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openai/openai-go/v3/auth"
+	"github.com/mackross/openai-go/v3/auth"
 )
 
 type mockProvider struct {

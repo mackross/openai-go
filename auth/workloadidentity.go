@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openai/openai-go/v3/shared"
+	"github.com/mackross/openai-go/v3/shared"
 )
 
 const (

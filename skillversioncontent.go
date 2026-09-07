@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"slices"
 
-	"github.com/openai/openai-go/v3/internal/requestconfig"
-	"github.com/openai/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3/internal/requestconfig"
+	"github.com/mackross/openai-go/v3/option"
 )
 
 // SkillVersionContentService contains methods and other services that help with

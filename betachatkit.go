@@ -5,9 +5,9 @@ package openai
 import (
 	"encoding/json"
 
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/packages/respjson"
+	"github.com/mackross/openai-go/v3/internal/apijson"
+	"github.com/mackross/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3/packages/respjson"
 )
 
 // BetaChatKitService contains methods and other services that help with

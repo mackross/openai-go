@@ -2,7 +2,7 @@
 
 <!-- x-release-please-start-version -->
 
-<a href="https://pkg.go.dev/github.com/openai/openai-go/v3"><img src="https://pkg.go.dev/badge/github.com/openai/openai-go.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/mackross/openai-go/v3"><img src="https://pkg.go.dev/badge/github.com/openai/openai-go.svg" alt="Go Reference"></a>
 
 <!-- x-release-please-end -->
 
@@ -19,7 +19,7 @@ from applications written in Go.
 
 ```go
 import (
-	"github.com/openai/openai-go/v3" // imported as openai
+	"github.com/mackross/openai-go/v3" // imported as openai
 )
 ```
 
@@ -30,7 +30,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/openai/openai-go/v3@v3.33.0'
+go get -u 'github.com/mackross/openai-go/v3@v3.33.0'
 ```
 
 <!-- x-release-please-end -->
@@ -51,9 +51,9 @@ package main
 import (
 	"context"
 
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/responses"
+	"github.com/mackross/openai-go/v3"
+	"github.com/mackross/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3/responses"
 )
 
 func main() {
@@ -341,7 +341,7 @@ package main
 import (
 	"context"
 
-	"github.com/openai/openai-go/v3"
+	"github.com/mackross/openai-go/v3"
 )
 
 func main() {
@@ -720,9 +720,9 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/webhooks"
+	"github.com/mackross/openai-go/v3"
+	"github.com/mackross/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3/webhooks"
 )
 
 func main() {
@@ -780,8 +780,8 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3"
+	"github.com/mackross/openai-go/v3/option"
 )
 
 func main() {
@@ -961,9 +961,9 @@ For cloud workloads (Kubernetes, Azure, Google Cloud Platform), you can use work
 
 ```go
 import (
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/auth"
-	"github.com/openai/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3"
+	"github.com/mackross/openai-go/v3/auth"
+	"github.com/mackross/openai-go/v3/option"
 )
 
 client := openai.NewClient(
@@ -1010,9 +1010,9 @@ You can implement your own subject token provider:
 import (
 	"context"
 
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/auth"
-	"github.com/openai/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3"
+	"github.com/mackross/openai-go/v3/auth"
+	"github.com/mackross/openai-go/v3/option"
 )
 
 type customTokenProvider struct{}
@@ -1061,8 +1061,8 @@ package main
 
 import (
 	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/azure"
+	"github.com/mackross/openai-go/v3"
+	"github.com/mackross/openai-go/v3/azure"
 )
 
 func main() {

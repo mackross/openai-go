@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/azure"
-	"github.com/openai/openai-go/v3/responses"
+	"github.com/mackross/openai-go/v3"
+	"github.com/mackross/openai-go/v3/azure"
+	"github.com/mackross/openai-go/v3/responses"
 )
 
 func main() {

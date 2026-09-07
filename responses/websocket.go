@@ -13,8 +13,8 @@ import (
 	"sync"
 
 	"github.com/coder/websocket"
-	"github.com/openai/openai-go/v3/internal/requestconfig"
-	"github.com/openai/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3/internal/requestconfig"
+	"github.com/mackross/openai-go/v3/option"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 )

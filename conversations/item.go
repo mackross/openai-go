@@ -11,15 +11,15 @@ import (
 	"net/url"
 	"slices"
 
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/internal/apiquery"
-	"github.com/openai/openai-go/v3/internal/requestconfig"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/packages/pagination"
-	"github.com/openai/openai-go/v3/packages/param"
-	"github.com/openai/openai-go/v3/packages/respjson"
-	"github.com/openai/openai-go/v3/responses"
-	"github.com/openai/openai-go/v3/shared/constant"
+	"github.com/mackross/openai-go/v3/internal/apijson"
+	"github.com/mackross/openai-go/v3/internal/apiquery"
+	"github.com/mackross/openai-go/v3/internal/requestconfig"
+	"github.com/mackross/openai-go/v3/option"
+	"github.com/mackross/openai-go/v3/packages/pagination"
+	"github.com/mackross/openai-go/v3/packages/param"
+	"github.com/mackross/openai-go/v3/packages/respjson"
+	"github.com/mackross/openai-go/v3/responses"
+	"github.com/mackross/openai-go/v3/shared/constant"
 )
 
 // Manage conversations and conversation items.
